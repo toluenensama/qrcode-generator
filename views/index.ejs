@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR image generator</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="container">
+        <% if (generated) { %>
+            <h1>QR code generated</h1>
+
+            <img src="images/qr_image.png" alt="">
+   <a href="/" class="btn">Regenerate</a>
+            <% } else { %>
+    <h1>QR code generator</h1>
+    <h3>Enter Url here</h3>
+    <div class="input-url"> 
+        <form action="/generate" method="POST">
+            <input class="input" type="url" name="link" id="">
+    </div>
+    <button class="btn" type="submit">Generate</button>
+    </form>
+        <% } %>
+    </div>     
+ 
+</body>
+</html>

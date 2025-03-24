@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: #031265;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    color: #fff;
+
+}
+h1{
+    margin: 1em auto;
+    text-align: center;
+    font-size: 25px;
+
+}
+h3 {
+    margin:0.5em auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px 15px 30px;
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1), 0 6px 6px rgb(0,0,0,0.1);
+}
+
+
+.input-url .input{
+    margin: 1.2rem auto;
+    font-family: inherit;
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.input-url:focus, .input:focus {
+    outline: 0;
+    border: 0;
+}
+
+a {
+    text-align: center;
+}
+
+.btn, a.btn {
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    padding: 5px;
+    margin: 20px;
+    width: 100%;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1), 0 6px 6px rgb(0,0,0,0.1);
+}
+
+.btn:active ,a.btn:active {
+    transform: scale(0.9);
+
+}
+
+/* form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid#3b3b4f;
+}
+
+fieldset :last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    
+} */
